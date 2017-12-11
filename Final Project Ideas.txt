@@ -1,0 +1,17 @@
+Final Project Ideas
+
+I have three ideas at the moment, and not sure what’s viable/what’s not so was hoping to get some feedback on which seemed the most possible. 
+
+
+1. Road trip Map
+	I’ve been trying to find a site where I can plug in my beginning and ending coordinates and get things to do in between, but haven’t been able to find something yet. I’m especially interested in non-traditional stops (think Atlas Obscura). 
+	I figured to make it easier I would only do 1-2 Road trip Routes and list 1)weird sites 2) how long off the route it would be 
+
+
+2. Pipeline of ProgCode 
+	I listened to this really cool podcast (CodeNewbie) where the host interviewed the founder of ProgCode during the 2016 elections. I wanted to create a visual timeline of the creation of ProgCode with hovers/interactions over milestone events. 
+	Not sure if there’s enough data to create a lengthy timeline though. 
+
+3. Call your reps! 
+	There’s been a bunch of issues that I’ve wanted to call my reps about, but I never really know what to say and can never really find a quick script to use. 
+	 I wanted to create something where you select something you’re passionate about in today’s politics (net neutrality, healthcare, tax reform) and then it prompts you to ask your zip code and then it gives you your representatives. After It has your representatives it then gives you a very basic script to use for the call.  
