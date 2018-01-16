@@ -1,0 +1,167 @@
+body {
+    margin: 5 auto;
+    /* font-family:'Open Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    /* background: url('https://img00.deviantart.net/13a6/i/2011/022/9/d/stock_gradient_red_white_blue_by_einstud-d37sihg.jpg');
+    background-repeat: no-repeat;
+    background-position: align-self: auto; */
+    /* padding: 0px 50px; */
+    background: linear-gradient(45deg, #B6D3E5, #E5A5A5);
+}
+
+.border {
+    padding: 0px 50px;
+}
+
+img {
+    width: 50px;
+}
+
+header {
+    text-align: center;
+    /* text-decoration: underline; */
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.title {
+    letter-spacing: 5px;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex--Important {
+    display: flex;
+    border: solid black;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+/* input areas  */
+
+.input {
+    /* text-align: center; */
+}
+
+/* DIV AROUND THE INDIVIDIUAL REP INFO AREAS  */
+
+.flex--RepArea {
+    display: flex;
+    border: solid black;
+    margin: 10px auto;
+}
+
+/* Rep 1 contact info area  */
+
+.Rep1 {
+    /* border only there so I can tell where the div starts */
+    border: solid red;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "O O O O T T T T T T T T T T T T T";
+}
+
+.repPhoto1 {
+    grid-area: O;
+    /* border only there so I can tell where the div starts */
+    border: solid blue;
+}
+
+.contactInfo1 {
+    grid-area: T;
+    /* border only there so I can tell where the div starts */
+    border: solid gray;
+}
+
+/* REp 2 contact info area  */
+
+.Rep2 {
+    /* border only there so I can tell where the div starts */
+    border: solid red;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "O O O O T T T T T T T T T T T T T";
+}
+
+.repPhoto2 {
+    grid-area: O;
+    /* border only there so I can tell where the div starts */
+    border: solid blue;
+}
+
+.contactInfo2 {
+    grid-area: T;
+    /* border only there so I can tell where the div starts */
+    border: solid gray;
+}
+
+.acordian {
+    text-align: center;
+    margin: 100px;
+}
+
+.Accordian--Issue1 {
+    border: solid black;
+}
+
+.Accordian--Issue2 {
+    border: solid black;
+}
+
+.Accordian--Issue3 {
+    border: solid black;
+}
+
+.Accordian--Issue4 {
+    border: solid black;
+}
+
+.script--issue1 {
+    border: dashed blue;
+}
+
+.script--issue2 {
+    border: dashed blue;
+}
+
+.script--issue3 {
+    border: dashed blue;
+}
+
+.script--issue4 {
+    border: dashed blue;
+}
+
+.issue1 {
+    overflow: hidden;
+}
+
+/* headings */
+
+h2 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* h3 {font-style:italic; } */
+
+.repCenter {
+    text-align: center;
+}
+
+input {
+    width: 200px;
+}
+
+/* buttons  */
+
+button {
+    border: black solid;
+    border-radius: 18px;
+}
